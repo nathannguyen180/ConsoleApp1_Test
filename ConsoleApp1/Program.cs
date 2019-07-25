@@ -6,17 +6,30 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    class Calculator //https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-console?view=vs-2019#next-steps
+    {
+        public static double DoOperation(double num1, double num2, string op)
+        {
+            double result = double.NaN;
+            
+            switch (op)
+            {
+
+            }
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Suuuu Woop");
+            
           
             for (; ; )
             {
                 float num1 = 0; float num2 = 0;
 
-                Console.WriteLine("\n\n------------------------");
+                Console.WriteLine("\n------------------------");
                 Console.WriteLine("Basic Console Calculator (in C#)\r");
                 Console.WriteLine("------------------------\n");
 
@@ -57,11 +70,12 @@ namespace ConsoleApp1
                         break;
 
                 }
-                Console.WriteLine("Press any key to restart");
+                Console.WriteLine("Press any key to restart...");
                 Console.ReadKey();
                 Console.Clear();
                 Console.Beep();
-             }
+                Console.WriteLine("Suuuuuuuu Woooop");
+            }
             
         }
     }
