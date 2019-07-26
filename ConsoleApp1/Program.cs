@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,23 +8,9 @@ namespace ConsoleApp1
 {
     class Calculator //https://docs.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-console?view=vs-2019#next-steps
     {
-
-
-        // what is this V wHaT iS tHiS???
-
-
-
-
         public static double DoOperation(double num1, double num2, string op) 
 
-
-
             //what is this ^ (I also have a second question that can be found if scrolling down)
-
-
-
-
-
 
         {
             double result = double.NaN;
@@ -105,9 +91,9 @@ namespace ConsoleApp1
                     result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
                     if (double.IsNaN(result))
                     {
-                        Console.WriteLine("What you gave me will cause a mathematical error. \n");
+                        Console.WriteLine("\n       What you gave me will cause a mathematical error.\n");
                     }
-  /* so this is where I will refer back to the first class but why is it " {0:0.##} " ? */               else Console.WriteLine("\n      Answer: {0:0.##}\n", result);
+                        else Console.WriteLine("\n      Answer: {0:0.#}\n", result);                                                          // so this is where I will refer back to the first class but why is it " {0:0.##} " ? 
                 }
                 catch (Exception e)
                 {
@@ -128,3 +114,4 @@ namespace ConsoleApp1
         }
     }
 }
+*/
