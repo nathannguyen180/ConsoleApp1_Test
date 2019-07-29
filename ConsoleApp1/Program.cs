@@ -93,7 +93,7 @@ namespace ConsoleApp1
                     {
                         Console.WriteLine("\n       What you gave me will cause a mathematical error.\n");
                     }
-                        else Console.WriteLine("\n      Answer: {0:0.#}\n", result);                                                          // so this is where I will refer back to the first class but why is it " {0:0.##} " ? 
+                        else Console.WriteLine("\n      Answer: {0:0.##}\n", result);                                                          // so this is where I will refer back to the first class but why is it " {0:0.##} " ? 
                 }
                 catch (Exception e)
                 {
