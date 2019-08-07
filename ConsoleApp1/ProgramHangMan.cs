@@ -40,7 +40,7 @@ namespace ConsoleApp1
         }
     }
 
-    class Program
+    class ProgramHangMan
     {
         static void Main(string[] args)
         {
