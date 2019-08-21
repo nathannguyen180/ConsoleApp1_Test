@@ -11,20 +11,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int someint = 1;
+           /* int someint = 1;
             float somefloat = 1f;
             bool somebool = false;
 
             string productName = "TV";
             int productYear = 2012;
-            float productPrice = 279.99f;
+            float productPrice = 279.99f;*/
 
             /*int guess = 500;
             if (guess == 500)
             {
                 Console.WriteLine("Success");
             }*/
-
+            /*
             int[] nums = { 1, 2, 3, 4, 5, 6 };
 
             int[] emptyNums = new int[10];
@@ -38,7 +38,7 @@ namespace ConsoleApp1
             twoD[0, 1] = 2;
             twoD[1, 0] = 3;
             twoD[1, 1] = 4;
-            int[,] predefindedtwoD = new int[2, 2] { { 1, 2 }, { 3, 4 } };
+            int[,] predefindedtwoD = new int[2, 2] { { 1, 2 }, { 3, 4 } };*/
 
            // string[] fruits = { "apple", "banana", "orange" };
 
@@ -50,7 +50,7 @@ namespace ConsoleApp1
             }
             Console.ReadKey();*/
 
-            List<int> numbers = new List<int>();
+            /*List<int> numbers = new List<int>();
             numbers.Add(1);
             numbers.Add(2);
             numbers.Add(3);
@@ -94,12 +94,12 @@ namespace ConsoleApp1
             //the real benefit to using dictionary over list is the power to remove keys connected to numbers instead of the large numbers themselves
             phonebook.Remove("Jessica");
             Console.WriteLine(phonebook.Values);
-            Console.WriteLine();
+            Console.WriteLine();*/
            /* for (int i = 0; i < phonebook.Count; i++)
             {
                 Console.WriteLine(phonebook[i]);   //this is not possible
             }*/
-            Console.WriteLine(phonebook.Count);
+           /* Console.WriteLine(phonebook.Count);
             Console.ReadKey();
 
 
@@ -114,7 +114,7 @@ namespace ConsoleApp1
                 Console.WriteLine(inventory["banana"]);
             Console.ReadLine();
 
-            string emptyString = String.Empty; //read only? is this cringe?
+            string emptyString = String.Empty;
 
             int integer = 1;
             string ourString = "Something to be replaced by an int"; //is completely replaced so now it only outputs "1"
@@ -133,7 +133,14 @@ namespace ConsoleApp1
             string shorter = fullString.Substring(5, 3);
             Console.WriteLine(someString);
             Console.WriteLine(shorter);
+            Console.ReadLine();*/
+
+            string name = "John Doe";
+            string newName = name.Replace("John", "Eric");
+            Console.WriteLine(newName);
             Console.ReadLine();
+
+
         }
     }
 }
